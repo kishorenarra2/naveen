@@ -11,12 +11,12 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Hero */
+/* Hero Section */
 .hero {
     background: linear-gradient(120deg, #0d6efd, #00c6ff);
     color: white;
     text-align: center;
-    padding: 70px 20px;
+    padding: 60px 20px;
 }
 
 .hero h1 {
@@ -26,6 +26,15 @@ body {
 
 .hero p {
     font-size: 20px;
+}
+
+/* DevOps Image Banner */
+.banner {
+    width: 100%;
+    height: 350px;
+    background-image: url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31');
+    background-size: cover;
+    background-position: center;
 }
 
 /* Sections */
@@ -38,12 +47,11 @@ body {
     margin: auto;
 }
 
-/* Different colors */
+/* Colors */
 .about { background: #f8f9fa; }
 .skills { background: #e3f2fd; }
 .tools { background: #e8f5e9; }
-.lifecycle { background: #fff3e0; }
-.projects { background: #f3e5f5; }
+.projects { background: #fff3e0; }
 .contact { background: #eceff1; }
 
 h2 {
@@ -52,6 +60,14 @@ h2 {
 
 ul li {
     margin: 6px 0;
+}
+
+/* Tools Image */
+.tools img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin-top: 20px;
 }
 
 /* Footer */
@@ -69,17 +85,20 @@ footer {
 <!-- Hero -->
 <div class="hero">
     <h1>DevOps With Naveen</h1>
-    <p>DevOps Learner | Cloud | Automation | CI/CD | Containerization</p>
+    <p>DevOps Learner | Cloud | Automation | CI/CD | Kubernetes</p>
 </div>
+
+<!-- DevOps Banner Image -->
+<div class="banner"></div>
 
 <!-- About -->
 <div class="section about">
 <div class="container">
     <h2>About Me</h2>
     <p>
-        Hello, I am Naveen, a passionate DevOps learner focused on building strong skills in 
-        Cloud Computing, Automation, and Continuous Delivery. My goal is to become a professional 
-        DevOps Engineer by gaining hands-on experience with real-time tools and projects.
+        I am Naveen, a passionate DevOps learner focused on building skills in Cloud Computing,
+        CI/CD automation, containerization, and infrastructure management. I am actively working
+        on real-time DevOps tools and projects.
     </p>
 </div>
 </div>
@@ -90,10 +109,9 @@ footer {
     <h2>Core Skills</h2>
     <ul>
         <li>Linux Administration</li>
-        <li>Git & GitHub Version Control</li>
+        <li>Git & GitHub</li>
         <li>Shell Scripting</li>
-        <li>Networking Basics</li>
-        <li>AWS Cloud Fundamentals</li>
+        <li>AWS Basics</li>
     </ul>
 </div>
 </div>
@@ -101,30 +119,17 @@ footer {
 <!-- Tools -->
 <div class="section tools">
 <div class="container">
-    <h2>DevOps Tools (Learning)</h2>
+    <h2>DevOps Tools</h2>
     <ul>
-        <li>Docker – Containerization</li>
-        <li>Kubernetes – Container Orchestration</li>
-        <li>Jenkins – CI/CD Automation</li>
-        <li>Terraform – Infrastructure as Code (Basics)</li>
-        <li>Ansible – Configuration Management (Basics)</li>
+        <li>Docker</li>
+        <li>Kubernetes</li>
+        <li>Jenkins</li>
+        <li>Terraform</li>
+        <li>Ansible</li>
     </ul>
-</div>
-</div>
 
-<!-- DevOps Lifecycle -->
-<div class="section lifecycle">
-<div class="container">
-    <h2>DevOps Lifecycle Understanding</h2>
-    <ul>
-        <li>Plan → Requirement Analysis</li>
-        <li>Code → Version Control using Git</li>
-        <li>Build → Automated Builds</li>
-        <li>Test → Continuous Testing</li>
-        <li>Release → Version Management</li>
-        <li>Deploy → Automated Deployment</li>
-        <li>Operate → Monitoring & Maintenance</li>
-    </ul>
+    <!-- Tools Image -->
+    <img src="https://miro.medium.com/max/1400/1*9f5sZx6u3a7r6GJ8L5Y4vw.png" alt="DevOps Tools">
 </div>
 </div>
 
@@ -132,12 +137,10 @@ footer {
 <div class="section projects">
 <div class="container">
     <h2>Projects (Coming Soon)</h2>
-    <p>Upcoming hands-on DevOps projects:</p>
     <ul>
-        <li>CI/CD Pipeline using Jenkins & GitHub</li>
-        <li>Dockerized Web Application</li>
+        <li>CI/CD Pipeline using Jenkins</li>
+        <li>Dockerized Application</li>
         <li>Kubernetes Deployment on AWS</li>
-        <li>Infrastructure Automation using Terraform</li>
     </ul>
 </div>
 </div>
@@ -145,7 +148,7 @@ footer {
 <!-- Contact -->
 <div class="section contact">
 <div class="container">
-    <h2>Contact Details</h2>
+    <h2>Contact</h2>
     <p><strong>Name:</strong> Naveen</p>
     <p><strong>Mobile:</strong> +91 8555841167</p>
     <p><strong>Email:</strong> gurunaveenbapanapalle701@gmail.com</p>
