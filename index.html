@@ -1,162 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DevOps With Naveen</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naveen | DevOps Learner</title>
 
-<style>
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            color: #333;
+        }
 
-/* Hero Section */
-.hero {
-    background: linear-gradient(120deg, #0d6efd, #00c6ff);
-    color: white;
-    text-align: center;
-    padding: 60px 20px;
-}
+        header {
+            background: linear-gradient(90deg, #0d6efd, #6610f2);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
 
-.hero h1 {
-    margin: 0;
-    font-size: 42px;
-}
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
 
-.hero p {
-    font-size: 20px;
-}
+        header p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
 
-/* DevOps Image Banner */
-.banner {
-    width: 100%;
-    height: 350px;
-    background-image: url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31');
-    background-size: cover;
-    background-position: center;
-}
+        /* Banner Image */
+        .hero-image {
+            background: #0b1e3a;
+            text-align: center;
+            padding: 20px;
+        }
 
-/* Sections */
-.section {
-    padding: 40px 20px;
-}
+        .hero-image img {
+            width: 90%;
+            max-width: 1000px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+        }
 
-.container {
-    max-width: 1000px;
-    margin: auto;
-}
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
 
-/* Colors */
-.about { background: #f8f9fa; }
-.skills { background: #e3f2fd; }
-.tools { background: #e8f5e9; }
-.projects { background: #fff3e0; }
-.contact { background: #eceff1; }
+        section {
+            background: white;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
 
-h2 {
-    color: #0d6efd;
-}
+        h2 {
+            color: #0d6efd;
+        }
 
-ul li {
-    margin: 6px 0;
-}
+        ul {
+            line-height: 1.8;
+        }
 
-/* Tools Image */
-.tools img {
-    width: 100%;
-    max-width: 600px;
-    display: block;
-    margin-top: 20px;
-}
+        .tools {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+        }
 
-/* Footer */
-footer {
-    background: #212529;
-    color: #aaa;
-    text-align: center;
-    padding: 20px;
-}
-</style>
+        .tool-box {
+            background: #eef3ff;
+            padding: 10px;
+            border-radius: 6px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #222;
+            color: #aaa;
+        }
+
+        a {
+            color: #0d6efd;
+            text-decoration: none;
+        }
+    </style>
 </head>
-
 <body>
 
-<!-- Hero -->
-<div class="hero">
-    <h1>DevOps With Naveen</h1>
-    <p>DevOps Learner | Cloud | Automation | CI/CD | Kubernetes</p>
+<header>
+    <h1>Naveen</h1>
+    <p>DevOps Learner | Cloud | Automation | CI/CD</p>
+</header>
+
+<!-- DevOps Banner -->
+<div class="hero-image">
+    <img src="images/devops-banner.png" alt="DevOps with Naveen">
 </div>
 
-<!-- DevOps Banner Image -->
-<div class="banner"></div>
-
-<!-- About -->
-<div class="section about">
 <div class="container">
-    <h2>About Me</h2>
-    <p>
-        I am Naveen, a passionate DevOps learner focused on building skills in Cloud Computing,
-        CI/CD automation, containerization, and infrastructure management. I am actively working
-        on real-time DevOps tools and projects.
-    </p>
-</div>
-</div>
 
-<!-- Skills -->
-<div class="section skills">
-<div class="container">
-    <h2>Core Skills</h2>
-    <ul>
-        <li>Linux Administration</li>
-        <li>Git & GitHub</li>
-        <li>Shell Scripting</li>
-        <li>AWS Basics</li>
-    </ul>
-</div>
-</div>
+    <!-- About -->
+    <section>
+        <h2>About Me</h2>
+        <p>
+            Hello! I am Naveen, a passionate DevOps learner focused on building skills in cloud computing,
+            automation, containerization, and infrastructure management. This website showcases my DevOps
+            learning journey and hands-on practice.
+        </p>
+    </section>
 
-<!-- Tools -->
-<div class="section tools">
-<div class="container">
-    <h2>DevOps Tools</h2>
-    <ul>
-        <li>Docker</li>
-        <li>Kubernetes</li>
-        <li>Jenkins</li>
-        <li>Terraform</li>
-        <li>Ansible</li>
-    </ul>
+    <!-- Skills -->
+    <section>
+        <h2>DevOps Skills (Learning)</h2>
+        <ul>
+            <li>Linux Administration</li>
+            <li>Git & GitHub</li>
+            <li>Docker Containerization</li>
+            <li>Kubernetes Basics</li>
+            <li>CI/CD Pipelines</li>
+            <li>AWS Cloud (EC2, S3, IAM)</li>
+            <li>Shell Scripting</li>
+        </ul>
+    </section>
 
-    <!-- Tools Image -->
-    <img src="https://miro.medium.com/max/1400/1*9f5sZx6u3a7r6GJ8L5Y4vw.png" alt="DevOps Tools">
-</div>
-</div>
+    <!-- Tools -->
+    <section>
+        <h2>DevOps Tools</h2>
+        <div class="tools">
+            <div class="tool-box">Git</div>
+            <div class="tool-box">GitHub</div>
+            <div class="tool-box">Docker</div>
+            <div class="tool-box">Kubernetes</div>
+            <div class="tool-box">Jenkins</div>
+            <div class="tool-box">AWS</div>
+            <div class="tool-box">Linux</div>
+            <div class="tool-box">Terraform (Learning)</div>
+        </div>
+    </section>
 
-<!-- Projects -->
-<div class="section projects">
-<div class="container">
-    <h2>Projects (Coming Soon)</h2>
-    <ul>
-        <li>CI/CD Pipeline using Jenkins</li>
-        <li>Dockerized Application</li>
-        <li>Kubernetes Deployment on AWS</li>
-    </ul>
-</div>
-</div>
+    <!-- Projects -->
+    <section>
+        <h2>Projects</h2>
+        <ul>
+            <li>Hosted a static website using GitHub Pages</li>
+            <li>Dockerized a sample web application</li>
+            <li>Created basic CI/CD pipeline using GitHub Actions</li>
+            <li>Deployed application on AWS EC2</li>
+        </ul>
+    </section>
 
-<!-- Contact -->
-<div class="section contact">
-<div class="container">
-    <h2>Contact</h2>
-    <p><strong>Name:</strong> Naveen</p>
-    <p><strong>Mobile:</strong> +91 8555841167</p>
-    <p><strong>Email:</strong> gurunaveenbapanapalle701@gmail.com</p>
-</div>
+    <!-- Roadmap -->
+    <section>
+        <h2>DevOps Roadmap (2026)</h2>
+        <ul>
+            <li>Learn Advanced Docker & Kubernetes</li>
+            <li>Infrastructure as Code using Terraform</li>
+            <li>Monitoring with Prometheus & Grafana</li>
+            <li>Advanced AWS Services</li>
+            <li>Get a DevOps Engineer Job</li>
+        </ul>
+    </section>
+
+    <!-- Contact -->
+    <section>
+        <h2>Contact Details</h2>
+        <p><strong>Name:</strong> Naveen</p>
+        <p><strong>Mobile:</strong> +91 8555841167</p>
+        <p><strong>Email:</strong>
+            <a href="mailto:gurunaveenbapanapalle701@gmail.com">
+                gurunaveenbapanapalle701@gmail.com
+            </a>
+        </p>
+    </section>
+
 </div>
 
 <footer>
-    <p>© 2026 DevOps With Naveen | All Rights Reserved</p>
+    <p>© 2026 Naveen | DevOps Portfolio</p>
 </footer>
 
 </body>
